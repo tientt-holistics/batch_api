@@ -15,5 +15,5 @@ describe "Sinatra integration" do
     last_response
   end
 
-  it_should_behave_like "integrating with a server"
+  it_should_behave_like "integrating with a server", true
 end

@@ -3,7 +3,7 @@ require 'batch_api/error_wrapper'
 
 describe BatchApi::ErrorWrapper do
   let(:exception) {
-    StandardError.new(Faker::Lorem.words(3)).tap do |e|
+    StandardError.new(Faker::Lorem.words(number: 3)).tap do |e|
       e.set_backtrace(Kernel.caller)
     end
   }

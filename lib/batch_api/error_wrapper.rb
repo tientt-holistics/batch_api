@@ -1,3 +1,5 @@
+require 'multi_json'
+
 module BatchApi
   # Public: wrap an error thrown during a batch operation.
   # This has a body class and a cookies accessor and can

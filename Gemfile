@@ -17,7 +17,7 @@ group :development, :test do
   gem 'pry'
 
   # testing the request infrastructure
-  gem "rails", "~> 4.2"
+  gem "rails", "~> 6.1"
   gem "sinatra"
   gem "rspec"
   gem "rspec-rails"
